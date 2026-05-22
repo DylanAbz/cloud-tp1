@@ -44,7 +44,7 @@ Le système repose sur un modèle producteur/consommateur sans communication dir
      
 ```bash
      npm install
-     ```
+```
 
 3. **Lancer le runtime Azure Functions :**
    * Appuyer sur `F5` pour lancer en mode débogage (ou taper `func start` dans le terminal).
@@ -55,7 +55,7 @@ Le système repose sur un modèle producteur/consommateur sans communication dir
      
 ```powershell
      Invoke-RestMethod -Uri "http://localhost:7071/api/recevoirDemande" -Method Post -Body "Message de test"
-     ```
+```
 
 5. **Vérifier les résultats :**
    * **Dans la console :** Vérifier l'enchaînement des logs (exécution de `recevoirDemande` suivie automatiquement par `traiterDemande`).
